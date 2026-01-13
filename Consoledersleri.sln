@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Konu1", "Konu1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Konu2_Tip_Donusumleri", "Konu2_Tip_Donusumleri", "{8B4CE903-3AAD-4F8C-9E61-E18A65184B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Konu3", "Konu3", "{8215100C-EC87-4E95-9329-BBF963A669DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260109_4_Convert_Tip_Donusumleri", "260109_4_Convert_Tip_Donusumleri\260109_4_Convert_Tip_Donusumleri.csproj", "{1DE91718-51D0-410B-B513-7A0676260DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260113_1_Parse_Tip_Donusumu", "260113_1_Parse_Tip_Donusumu\260113_1_Parse_Tip_Donusumu.csproj", "{69CBC961-4F26-40EA-8D6F-B951713449E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE91718-51D0-410B-B513-7A0676260DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE91718-51D0-410B-B513-7A0676260DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE91718-51D0-410B-B513-7A0676260DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE91718-51D0-410B-B513-7A0676260DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CBC961-4F26-40EA-8D6F-B951713449E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CBC961-4F26-40EA-8D6F-B951713449E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CBC961-4F26-40EA-8D6F-B951713449E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CBC961-4F26-40EA-8D6F-B951713449E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DE91718-51D0-410B-B513-7A0676260DB9} = {8B4CE903-3AAD-4F8C-9E61-E18A65184B8A}
+		{69CBC961-4F26-40EA-8D6F-B951713449E1} = {8B4CE903-3AAD-4F8C-9E61-E18A65184B8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CBE770D-709C-47E1-93E9-9019B5A6F401}
+	EndGlobalSection
+EndGlobal
