@@ -29,7 +29,7 @@
             Console.WriteLine("10>5 =>" + (10 > 5));
             sonuc = metin1 == "software";//false
             Console.WriteLine("yazılım==software =>" + sonuc);
-            Console.WriteLine("01.01.2026 01:20=0"+tarih+" =>"+ (Convert.ToDateTime("01.01.2026 01:20")==tarih));
+            Console.WriteLine("01.01.2026 01:20:00"+tarih+" =>"+ (Convert.ToDateTime("01.01.2026 01:20:00")==tarih));
 
         }
     }
