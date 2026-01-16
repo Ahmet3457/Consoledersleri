@@ -18,8 +18,19 @@
             //--------true && false
             //-------- false
             Console.WriteLine("14>= 14 && (45 == 45 && \"software\"==\"yazılım\")sonuç:"+sonuc;
+                              
             sonuc = 'a' != 'A' && (14 >= 4 || (DateTime.Now.Year == 2026 && true != false));//işlem sonucunu adım adım yazınız
+            //--------true|| (true && true)
+            //--------true||(true)
+            //--------true||true
+            //--------true
+                              
             sonuc = "Yaşar Kemal Van" != "Orhan Pamuk İstanbul" && ((14.5 == Convert.ToDouble("14.5") || false == true) && (double)45 == Convert.ToDouble("45"));//Adım adım çözümleri veriniz
-        }
+        }   //--------true&&((true||false)&&true)
+            //--------true&&((true)&&true)
+            //--------true&&(true&&true)
+            //--------true&&(true)
+            //--------true&&true
+            //--------true
     }
 }
