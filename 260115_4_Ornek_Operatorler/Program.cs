@@ -24,13 +24,22 @@
             //--------true||(true)
             //--------true||true
             //--------true
+<<<<<<< HEAD
                               
             sonuc = "Yaşar Kemal Van" != "Orhan Pamuk İstanbul" && ((14.5 == Convert.ToDouble("14.5") || false == true) && (double)45 == Convert.ToDouble("45"));//Adım adım çözümleri veriniz
         }   //--------true&&((true||false)&&true)
+=======
+            sonuc = "Yaşar Kemal Van" != "Orhan Pamuk İstanbul" && ((14.5 == Convert.ToDouble("14.5") || false == true) && (double)45 == Convert.ToDouble("45"));//Adım adım çözümleri veriniz
+            //--------true&&((true||false)&&true)
+>>>>>>> Atama Operatorleri işlendi,devam edilecek
             //--------true&&((true)&&true)
             //--------true&&(true&&true)
             //--------true&&(true)
             //--------true&&true
             //--------true
+<<<<<<< HEAD
+=======
+        }
+>>>>>>> Atama Operatorleri işlendi,devam edilecek
     }
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Konu1", "Konu1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Konu1_Veri_Tipleri", "Konu1_Veri_Tipleri", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Konu2_Tip_Donusumleri", "Konu2_Tip_Donusumleri", "{8B4CE903-3AAD-4F8C-9E61-E18A65184B8A}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260115_3_Mantiksal_Operatorler", "260115_3_Mantiksal_Operatorler\260115_3_Mantiksal_Operatorler.csproj", "{2220D711-D14C-4826-98B3-9C49CD57FB16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260115_4_Ornek_Operatorler", "260115_4_Ornek_Operatorler\260115_4_Ornek_Operatorler.csproj", "{19BB09D6-57AD-42DA-9482-AADF6D5C5996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260116_1_Atama_Operatorleri", "260116_1_Atama_Operatorleri\260116_1_Atama_Operatorleri.csproj", "{3E8FD680-2753-4636-9C2D-BE25F310ED25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{19BB09D6-57AD-42DA-9482-AADF6D5C5996}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19BB09D6-57AD-42DA-9482-AADF6D5C5996}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19BB09D6-57AD-42DA-9482-AADF6D5C5996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8FD680-2753-4636-9C2D-BE25F310ED25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8FD680-2753-4636-9C2D-BE25F310ED25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8FD680-2753-4636-9C2D-BE25F310ED25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8FD680-2753-4636-9C2D-BE25F310ED25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{834829AD-F34B-438A-84FA-797164FB2C15} = {8215100C-EC87-4E95-9329-BBF963A669DF}
 		{2220D711-D14C-4826-98B3-9C49CD57FB16} = {8215100C-EC87-4E95-9329-BBF963A669DF}
 		{19BB09D6-57AD-42DA-9482-AADF6D5C5996} = {8215100C-EC87-4E95-9329-BBF963A669DF}
+		{3E8FD680-2753-4636-9C2D-BE25F310ED25} = {8215100C-EC87-4E95-9329-BBF963A669DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6CBE770D-709C-47E1-93E9-9019B5A6F401}
