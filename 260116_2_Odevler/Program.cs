@@ -34,9 +34,9 @@
 
             //3
             Console.WriteLine("İşlemler:");
-            Console.WriteLine("1. sayı + 5 = " + (s1 + 5));
-            Console.WriteLine("2. sayı - 10 = " + (s2 - 10));
-            Console.WriteLine("3. sayı * 5 = " + (s3 * 5));
+            Console.WriteLine("1.sayının 5 fazlası:" + (s1 + 5));
+            Console.WriteLine("2.sayının 10 eksiği:" + (s2 - 10));
+            Console.WriteLine("3.sayının 5 ile çarpımı:" + (s3 * 5));
 
             //4
             Console.WriteLine("Bölünebilme kontrolü:");
