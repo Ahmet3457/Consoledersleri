@@ -14,6 +14,39 @@
 
 
             */
+            int s1 = 10;
+            int s2 = 7;
+            int s3 = 4;
+            int s4 = 8;
+            int s5 = 6;
+
+            //1
+            Console.WriteLine("2'nin katı kontrolü:");
+            Console.WriteLine(s1 % 2 == 0);
+            Console.WriteLine(s2 % 2 == 0);
+            Console.WriteLine(s3 % 2 == 0);
+            Console.WriteLine(s4 % 2 == 0);
+            Console.WriteLine(s5 % 2 == 0);
+
+            //2
+            int toplam = s1 + s2 + s3 + s4 + s5;
+            Console.WriteLine("Toplam: " + toplam);
+
+            //3
+            Console.WriteLine("İşlemler:");
+            Console.WriteLine("1. sayı + 5 = " + (s1 + 5));
+            Console.WriteLine("2. sayı - 10 = " + (s2 - 10));
+            Console.WriteLine("3. sayı * 5 = " + (s3 * 5));
+
+            //4
+            Console.WriteLine("Bölünebilme kontrolü:");
+            Console.WriteLine("9'a bölünür mü?" + (toplam % 9 == 0));
+            Console.WriteLine("11'e bölünür mü?" + (toplam % 11 == 0));
+            Console.WriteLine("13'e bölünür mü?" + (toplam % 13 == 0));
+
+            //5
+            double sonuc = (double)(s1 + s2 + s3) / (s4 - s5);
+            Console.WriteLine("Sonuç: " + sonuc);
         }
     }
 }
