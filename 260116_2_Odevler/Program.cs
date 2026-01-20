@@ -14,14 +14,23 @@
 
 
             */
-            int s1 = 10;
-            int s2 = 7;
-            int s3 = 4;
-            int s4 = 8;
-            int s5 = 6;
+            Console.WriteLine("1.sayı:");
+            int s1=Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("2.sayı:");
+            int s2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("3.sayı:");
+            int s3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("4.sayı:");
+            int s4 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("5.sayı:");
+            int s5 = Convert.ToInt32(Console.ReadLine());
 
             //1
-            Console.WriteLine("2'nin katı kontrolü:");
+            Console.WriteLine("2nin katı kontrolü:");
             Console.WriteLine(s1 % 2 == 0);
             Console.WriteLine(s2 % 2 == 0);
             Console.WriteLine(s3 % 2 == 0);
@@ -40,9 +49,9 @@
 
             //4
             Console.WriteLine("Bölünebilme kontrolü:");
-            Console.WriteLine("9'a bölünür mü?" + (toplam % 9 == 0));
-            Console.WriteLine("11'e bölünür mü?" + (toplam % 11 == 0));
-            Console.WriteLine("13'e bölünür mü?" + (toplam % 13 == 0));
+            Console.WriteLine("9a bölünür mü?" + (toplam % 9 == 0));
+            Console.WriteLine("11e bölünür mü?" + (toplam % 11 == 0));
+            Console.WriteLine("13e bölünür mü?" + (toplam % 13 == 0));
 
             //5
             double sonuc = (double)(s1 + s2 + s3) / (s4 - s5);
