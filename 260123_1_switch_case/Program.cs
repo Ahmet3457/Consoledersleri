@@ -29,6 +29,28 @@
                 //56 için kodlar
                 break;
             }
+
+            string metin = "merhaba";
+
+            switch (metin)
+            {
+                default:
+                    break;
+
+                case "hello":
+                case "mer":
+                case "":
+                    //1 den fazla case 1 break ile sonlandırılabilir
+                    break;
+
+                case "slaw":
+
+                    break;
+
+                case "hallo":
+
+                    break;
+            }
         }
     }
 }
