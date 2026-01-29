@@ -12,6 +12,100 @@
 
             //kullanıcı adı admin, şifresi 12?ab olan bir sistem için 3 defa giriş hakkı tanıyan do while sistemini kodlayınız
             //***********************************************************
+            //1.SORU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            //2.SORU
+            int sayi;
+int toplam = 0;
+int adet = 0;
+
+do
+{
+    Console.Write("Bir sayı girin (negatif çıkış): ");
+    sayi = Convert.ToInt32(Console.ReadLine());
+
+    if (sayi > 0)
+    {
+        toplam += sayi;
+        adet++;
+    }
+
+} while (sayi >= 0);
+
+Console.WriteLine("Girilen pozitif sayı adedi: " + adet);
+Console.WriteLine("Pozitif sayıların toplamı: " + toplam);
+
+            //3.SORU
+int sayi;
+int toplam = 0;
+int adet = 0;
+
+while (adet < 11)
+{
+    do
+    {
+        Console.Write("1-100 arası sayı giriniz: ");
+        sayi = Convert.ToInt32(Console.ReadLine());
+    }
+    while (sayi < 1 || sayi > 100);
+
+    toplam = toplam + sayi;
+    adet = adet + 1;
+}
+
+Console.WriteLine("Girilen sayıların toplamı: " + toplam);
+
+            //4.SORU
+            string kullaniciAdi;
+string sifre;
+int hak = 3;
+
+do
+{
+    Console.Write("Kullanıcı adı: ");
+    kullaniciAdi = Console.ReadLine();
+
+    Console.Write("Şifre: ");
+    sifre = Console.ReadLine();
+
+    if (kullaniciAdi == "admin" && sifre == "12?ab")
+    {
+        Console.WriteLine("Giriş başarılı 👍");
+        break;
+    }
+    else
+    {
+        hak--;
+        Console.WriteLine("Hatalı giriş! Kalan hak: " + hak);
+    }
+
+} while (hak > 0);
+
+if (hak == 0)
+{
+    Console.WriteLine("Giriş hakkınız bitti ❌");
+}
+
 
             
         }
