@@ -55,9 +55,9 @@ Console.WriteLine("Pozitif sayıların toplamı: " + toplam);
 
 
             //3.SORU
-int sayi;
-int toplam = 0;
-int adet = 0;
+            int sayi;
+            int toplam = 0;
+            int adet = 0;
 
 while (adet < 11)
 {
