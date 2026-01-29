@@ -13,27 +13,24 @@
             //kullanıcı adı admin, şifresi 12?ab olan bir sistem için 3 defa giriş hakkı tanıyan do while sistemini kodlayınız
             //***********************************************************
             //1.SORU
+            int sayiAdeti = 0;
+            int enbuyukSayi=0;
+            do
+            {
 
+                Console.WriteLine(sayiAdeti+1+".soruyu giriniz?");
+                int sayi1 = Convert.ToInt32(Console.ReadLine());
 
+                if (sayi1>enbuyukSayi)
+                {
+                    enbuyukSayi = sayi1;
+                }
+                sayiAdeti++;
 
+            } while (sayiAdeti<5);
 
+            Console.WriteLine("Girilen sayılar içinde en büyük sayı:"+enbuyukSayi);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
             //2.SORU
             int sayi;
 int toplam = 0;
@@ -54,6 +51,8 @@ do
 
 Console.WriteLine("Girilen pozitif sayı adedi: " + adet);
 Console.WriteLine("Pozitif sayıların toplamı: " + toplam);
+
+
 
             //3.SORU
 int sayi;
