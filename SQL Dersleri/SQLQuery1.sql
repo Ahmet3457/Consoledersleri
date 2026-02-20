@@ -1,4 +1,4 @@
-use northwinddb--DB(Database) çaðýrmak için use kullanýlýr
+use Northwind--DB(Database) çaðýrmak için use kullanýlýr
 
 select *from Products--NorthWind DB altýnda Products tablosundaki data(veri)larý listeler
 --select=> seçmek
